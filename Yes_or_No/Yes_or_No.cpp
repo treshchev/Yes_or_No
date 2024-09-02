@@ -4,7 +4,7 @@
 #include <iostream>
 #include <string>
 #include <cctype>
-char askYesNo1();
+char askYesNo1(); // just firt function
 char askYesNo2(std::string question);
 
 int main()
