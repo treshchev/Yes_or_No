@@ -27,7 +27,7 @@ char askYesNo1()
 		std::cout << "Please enter 'y' or 'n': ";
 		std::cin >> Response1;
 
-		Response1 = tolower(Response1);
+		Response1 = tolower(Response1); // Convert to lowercase for comparison
 
 	} while (Response1 != yes && Response1 != no);
 	return Response1;
@@ -41,7 +41,7 @@ char askYesNo2(std::string question)
 		std::cout << question << " (y/n): ";
 		std::cin >> Response2;
 
-		Response2 = tolower(Response2);
+		Response2 = tolower(Response2); // Convert to lowercase for comparison
 
 	} while (Response2 != yes && Response2 != no);
 	return Response2;
